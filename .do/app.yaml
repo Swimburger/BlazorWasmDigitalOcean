@@ -5,7 +5,7 @@ static_sites:
     repo: Swimburger/BlazorWasmDigitalOcean
     branch: main
     deploy_on_push: true
-  dockerfile_path: Dockerfile.build 
-  output_dir: output/wwwroot
+  dockerfile_path: .do/Dockerfile.build 
+  output_dir: /output/wwwroot
   index_document: index.html
   catchall_document: index.html
