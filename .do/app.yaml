@@ -7,6 +7,5 @@ static_sites:
     deploy_on_push: true
   dockerfile_path: Dockerfile.build 
   output_dir: output/wwwroot
-  environment_slug: html
   index_document: index.html
   catchall_document: index.html
